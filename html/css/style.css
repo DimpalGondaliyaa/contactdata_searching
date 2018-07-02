@@ -1,0 +1,126 @@
+/*global stysheet*/
+
+/*NavBar*/
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 65px !important;
+    line-height: 65px !important;
+}
+
+nav {
+    color: #fff;
+    background-color: #492763 !important;
+    width: 100%;
+    height: 65px;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.brand-logo img {
+	height: 65px;
+	width: auto;
+}
+
+nav ul a:hover {
+    background-color: rgb(73, 39, 99) !important;
+    color: ghostwhite !important;
+}
+
+@media(min-width: 992px){
+    ul#nav-mobile {
+        height: auto;
+        line-height: 60px;
+    }
+}
+
+
+.nav-wrapper .dropdown-content {
+    width: max-content !important;
+    position: absolute;
+    top: 65px !important;
+}
+
+.nav-wrapper .dropdown-content a {
+    color: #492763;
+    font-weight: 500;
+}
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background: linear-gradient(0deg,#341a45,#492763) !important;
+}
+.mainBox {
+    min-height: 65vh;
+    position: relative;
+    padding: 25px;
+}
+.login.Box {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.footer-copyright {
+    background: #00000025 !important;
+}
+.btn-login {
+    /*background: #492763 !important;*/
+    background: linear-gradient(0deg,#44245d,#763fa0) !important;
+    color: ghostwhite !important;
+    border: 1px solid #492763 !important;
+    box-shadow: 0px 3px 6px #00000059 !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+.btn-login:hover,.btn-login:focus{
+	background: linear-gradient(0deg,#44245d,#763fa0) !important;
+    color: ghostwhite !important;
+    border: 1px solid #492763 !important;
+    box-shadow: 0px 1px 4px #00000059 !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+
+.btn-import-contact {
+    background: linear-gradient(0deg,#4b2965,#a15ed2) !important;
+    color: ghostwhite !important;
+    box-shadow: 0px 5px 10px #0000005e !important;
+    /* border: 2px solid #7f49a7; */
+    position: relative !important;
+    top: 25px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    text-shadow: 0px 1px 2px #15071f !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    -webkit-transition:all 0.3s ease-in-out !important;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+.btn-import-contact:hover, .btn-import-contact:active  {
+        background: linear-gradient(0deg,#5b2c7d,#c26fff) !important;
+    box-shadow: 0px 2px 5px #0000005e !important;
+    letter-spacing: 2px !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+textarea {
+    overflow: auto;
+    min-height: 5rem !important;
+}
+
+
+ul#dropdown2 {
+    position: absolute;
+    top: 65px !important;
+}

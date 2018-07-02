@@ -1,0 +1,47 @@
+/*add_contact*/
+.form-box {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 4px double #49276352;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px gainsboro;
+    padding: 10px;
+}
+
+.form-box h5 {
+    padding: 0px 10px;
+    text-transform: capitalize;
+}
+.btn-save-new-contact {
+    background:linear-gradient(0deg,#218021,#26b226);
+    color: ghostwhite;
+    border: 4px double;
+    height: auto;
+    box-shadow: 0px 2px 7px #c2bebe;
+    position: relative;
+    margin-top: 15px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #000;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.btn-save-new-contact:hover,.btn-save-new-contact:focus {
+	background:linear-gradient(0deg,#26b226,#218021);
+	-webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+input {
+    border: 1px solid gainsboro !important;
+    padding-left: 12px !important;
+    width: calc(100% - 12px) !important;
+    height: 35px !important;
+    margin-bottom: 15px !important;
+    font-size: 15px !important;
+}

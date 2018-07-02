@@ -1,0 +1,75 @@
+/*manul_contact_list*/
+.small-box-input input {
+    position: relative;
+    width: calc(49% - 5px) !important;
+    float: left;
+    display: inline-block !important;
+    margin: 5px !important;
+}
+.up-con-box {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.btn-edt-manl {
+    background: olivedrab;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    line-height: 35px;
+    border: 4px double white;
+}
+
+.btn-edt-manl:hover, .btn-edt-manl:focus {
+    background: #466010;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    line-height: 35px;
+    border: 4px double white;
+}
+
+
+.del-man-cont {
+    background: indianred;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    line-height: 35px;
+    border: 4px double white;
+}
+
+.del-man-cont:hover, .del-man-cont:focus {
+    background: #702828;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    line-height: 35px;
+    border: 4px double white;
+}
+select{
+	display: block;
+}
+
+.top {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid gainsboro;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+table#example select {
+    position: relative;
+    height: auto;
+    width: max-content;
+    border: 1px solid #010101;
+    border-bottom: none;
+    box-shadow: 0px -3px 7px #4927633b;
+}

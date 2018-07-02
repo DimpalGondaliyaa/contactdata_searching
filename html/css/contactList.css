@@ -1,0 +1,153 @@
+div.container { max-width: 1200px; }
+/*contactList*/
+.box-header img {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    position: relative;
+}
+.max-width {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.contact-box {
+    position: relative;
+    border: 2px solid;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px #00000040;
+    overflow: hidden;
+}
+.box-header {
+    position: relative;
+    padding: 10px 25px;
+    background: linear-gradient(0deg,#341a45,#492763) !important;
+    overflow: hidden;
+    color: ghostwhite;
+    text-transform: capitalize;
+}
+.box-body {
+    position: relative;
+    padding: 25px;
+    overflow: hidden;
+    background: ghostwhite;
+    color: #472660;
+    font-weight: 500;
+    max-height: 200px;
+    min-height: 200px;
+}
+.box-row {
+    position: relative;
+    display: flex;
+}
+.heading h4{
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+span.active {
+    color: #de6d05;
+    text-shadow: 0px 1px 2px #0000005e;
+}
+/*.box-body .col.s2.m2 {
+    text-align: center;
+    position: relative;
+}
+.box-body .col.s8.m8 {
+    text-align: left;
+    position: relative;
+}*/
+
+
+.contact-box figcaption {
+	position: absolute;
+    top: calc(-60%);
+    width: auto;
+    background-color: #ffffff52;
+    padding: 7px 25px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    right:  0;
+    border-bottom-left-radius:  25px;
+    box-shadow: 0px 2px 5px #00000085;
+}
+.contact-box figcaption:before {
+  position: absolute;
+  content: '';
+  z-index: 2;
+  top: -20%;
+  left: 0;
+  width: auto;
+  height: 50px;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+  -webkit-transition:all 0.2s ease-in-out;
+  -moz-transition:all 0.2s ease-in-out;
+  -o-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
+}
+.contact-box:hover figcaption {
+	-webkit-transition:all 0.2s ease-in-out;
+  -moz-transition:all 0.2s ease-in-out;
+  -o-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
+  top: 0px;
+}
+
+figcaption a {
+    color: #371c49;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+
+.copy {
+    max-height: 70px;
+    overflow-y: scroll;
+}
+.copy::-webkit-scrollbar {
+  margin-top: 15px;
+  width: 5px;
+}
+
+.copy::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.copy::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: linear-gradient(0deg,#23122f,#a462d6);
+}
+a.btn.modal-trigger.btn-editContact {
+    background: #492763;
+}
+a.btn.deleteecon {
+    background: red;
+}
+
+
+
+/*Media Responsive*/
+@media(max-width: 768px){
+	.heading h4 {
+	    font-size: 18px !important;
+        word-break: break-word;
+	}
+	.mainBox {
+	    padding: 15px;
+	}
+}
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+    height: 60px;
+    background-color: #f9f9f9;
+}
+table.dataTable tbody tr {
+    background-color: #ffffff;
+    height: 60px;
+}

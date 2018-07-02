@@ -1,0 +1,51 @@
+
+/*createAccount css*/
+ .mainBox
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+ .acc-Box {
+    position: relative;
+    overflow: hidden;
+    border: 4px double gainsboro;
+    border-radius: 5px;
+    max-width: 700px;
+    word-break: break-word;
+    word-wrap: break-word;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+a.btn.creatacc {
+    background: linear-gradient(0deg,#46255f,#8642b9);
+    border: 2px solid #7b3da9;
+    height: auto;
+    border-radius: 50px;
+    padding: 0px 25px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.acc-Box input {
+    border: 1px solid gainsboro !important;
+    border-radius: 50px !important;
+    padding-left: 20px !important;
+    width: calc(100% - 15px) !important;
+    margin: 0px !important;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])
+{
+    border-bottom: 1px solid #dcdcdc !important;
+    -webkit-box-shadow: 0 1px 0 0 #dcdcdc !important;
+    box-shadow: 0 1px 0 0 #dcdcdc !important;
+}
+
+div#MobileMsg {
+    position: relative;
+    padding: 10px;
+    padding-bottom: 0;
+}
